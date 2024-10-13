@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Зливаючи границі */
+  margin-top: 20px;
+  /* Відступ зверху */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Тінь для таблиці */
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #e4e4e4;
+}
+
+th {
+  background-color: #bdd5ee;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e1f5fe;
+}
