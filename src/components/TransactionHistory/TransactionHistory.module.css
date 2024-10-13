@@ -1,11 +1,8 @@
 .table {
   width: 100%;
   border-collapse: collapse;
-  /* Зливаючи границі */
   margin-top: 20px;
-  /* Відступ зверху */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* Тінь для таблиці */
 }
 
 th,
