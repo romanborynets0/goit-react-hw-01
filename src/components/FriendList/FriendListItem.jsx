@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./FriendList.module.css";
+import styles from "./FriendListItem.module.css";
 
 export default function FriendListItem({ avatar, name, isOnline }) {
   return (
